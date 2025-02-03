@@ -2,6 +2,11 @@
 
 import random
 
+def main():
+    user_wins = 0
+    computer_wins = 0
+    winning_score = 3
+
 def get_computer_choice():
     return random.choice(["камень", "ножницы", "бумага"])
 
@@ -14,15 +19,4 @@ def determine_winner(user_choice, computer_choice):
         return "Человек"
     else:
         return "Компьютер"
-    
-user_wins = 0
-computer_wins = 0
-winning_score = 3
 
-
-def main():
-    user_wins = 0
-    computer_wins = 0
-    winning_score = 3
-
-    
