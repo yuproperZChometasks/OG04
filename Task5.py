@@ -19,3 +19,4 @@ def determine_winner(user_choice, computer_choice):
         return "Человек"
     else:
         return "Компьютер"
+
